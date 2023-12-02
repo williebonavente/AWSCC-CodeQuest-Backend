@@ -1,10 +1,9 @@
 """_summary_
 Let's rock-paper-scissor
-let r = rock, p = paper, s = scissor 
- 
- It is switch-case function for the game
+
+It is switch-case function for the game
 param: player1, player2
-args: thechoice -> scissor, rock
+args: the choice -> scissor, rock
 
 Minimal Implementation
 """
@@ -31,5 +30,5 @@ def rock_paper_scissor(player1, player2):
             print("Player 2 Wins!")
         case "rock", "paper":
             print("Player 2 Wins!")
-
+    
 rock_paper_scissor(Player1, Player2)

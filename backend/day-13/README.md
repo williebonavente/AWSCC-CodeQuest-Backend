@@ -60,6 +60,7 @@ my_calculator = Calculator()
 sum = my_calculator.sum(numbers)
 print(sum)
 ```
+
 <sup>You can try to run this code in `day-13-abstraction.py` inside this folder.</sup>
 
 And it should print out `75`.

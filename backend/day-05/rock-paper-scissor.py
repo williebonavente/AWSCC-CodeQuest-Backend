@@ -35,25 +35,8 @@ def rock_paper_scissor(player1, player2):
             return("Player 2 Wins!")
         case "paper", "scissors":
             return("Player 2 Wins!")
+        
+    # Tie? by default? No Checking error seriously? Yea..
+    return "It's a tie!"
 
 print(rock_paper_scissor(Player1, Player2))
-
-
-# # Test case 1: Player 1 wins with rock against scissors
-
-# assert rock_paper_scissor("rock", "scissors") == "Player 1 Wins!"
-
-# # Test case 2: Player 1 wins with paper against rock
-# assert rock_paper_scissor("paper", "rock") == "Player 1 Wins!"
-
-# # Test case 3: Player 1 wins with scissors against paper
-# assert rock_paper_scissor("scissors", "paper") == "Player 1 Wins!"
-
-# # Test case 4: Player 2 wins with scissors against rock
-# assert rock_paper_scissor("scissors", "rock") == "Player 2 Wins!"
-
-# # Test case 5: Player 2 wins with rock against paper
-# assert rock_paper_scissor("rock", "paper") == "Player 2 Wins!"
-
-# # Test case 6: Player 2 wins with paper against scissors
-# assert rock_paper_scissor("paper", "scissors") == "Player 2 Wins!"
