@@ -1,0 +1,43 @@
+{
+    "chopine.com": [
+        {
+            "email": "willeaslkfjalk@gmail.com",
+            "password": "2e0584e59bc2dfd462ba45ef94b783c993a50acfba3c3ff5ab487b35637545be"
+        }
+    ],
+    "gg.com": [
+        {
+            "email": "chopinliszt@classical.romantic.era",
+            "password": "luigi",
+            "hashed password": "fa936a38adf2ccc32dc21fea67c1651df246dc75b787413be33393165f2d6b1c"
+        }
+    ],
+    "ggezf.com": [
+        {
+            "email": "juna@ggmail.ocm",
+            "password": "dadsa",
+            "hashed password": "fdc51f8517dc1daffc40841ad6d35b9621cc6f9018b83f4cadabfd2f147ed203"
+        }
+    ],
+    "adlaskdlsak.com": [
+        {
+            "email": "willl@gmail.com",
+            "password": "123",
+            "hashed password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        }
+    ],
+    "laskdlsakd": [
+        {
+            "email": "wisaldklas",
+            "password": "1231k2",
+            "hashed password": "6e95240d9589fca874a9d9426946b42044768d9287c3de98058bb435cc77df2d"
+        }
+    ],
+    "skdfjaskldjsa.ai": [
+        {
+            "email": "adasdas@ggeezmail.com",
+            "password": "klsadlaskdaldk",
+            "hashed password": "7670a35417affd919bc3e13c918d880491ed8c1bff1f4480a517b7800f6b946d"
+        }
+    ]
+}
