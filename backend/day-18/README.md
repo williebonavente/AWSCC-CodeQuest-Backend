@@ -41,7 +41,8 @@ In this example, we specify query parameters in the `params` dictionary and pass
 <hr>
 <br>
 
-## Headers 
+## Headers
+
 Are metadata included in requests and responses to provide crucial information and instructions. They play various roles, including authentication, content type specification, user agent identification, caching directives, security enhancements, and more. Two common headers are 'User-Agent,' which identifies the client making the request, and 'Authorization,' which conveys authentication credentials. These headers are set and utilized in Python using the `requests` library to customize API requests. Headers are essential for conveying context and controlling the behavior of HTTP communication.
 
 Example Code:
@@ -76,8 +77,8 @@ In this code, we set the 'User-Agent' to "MyCustomApp/1.0" and the 'Authorizatio
 <hr>
 <br>
 
+## Request bodies
 
-## Request bodies 
 Used for sending data to the server, primarily in POST and PUT requests. POST requests create new resources, and PUT requests update existing resources. To send data in the request body using Python's `requests` library, format the data and include it using the `data` or `json` parameter. For example, you can send JSON data in the request body to create or update resources on the server. The format and requirements for the data in the request body depend on the API's specifications.
 
 Example Code:
@@ -110,6 +111,7 @@ In this example, we format the data as a JSON object and use the `json` paramete
 
 Remember that the format of the data in the request body depends on the API's requirements, which should be specified in the API's documentation.
 <br>
+
 <hr>
 
 #### Additional Resources:
@@ -121,28 +123,34 @@ Remember that the format of the data in the request body depends on the API's re
 <hr>
 <br>
 
-<h1 align="center">CHALLENGE TIME!!!</h1>
+<h1 align="**center**">CHALLENGE TIME!!!</h1>
 
 API Endpoint: https://jsonplaceholder.typicode.com/posts
 
 Follow the steps:
 
 1. Set Custom Headers:
+   
    - Construct a GET request to the API endpoint.
    - Set a custom 'User-Agent' header to identify your request as 'MyApp/1.0'.
 
 2. Send the GET Request:
+   
    - Send the GET request with the custom header to retrieve a list of posts.
 
 3. Inspect the Response:
+   
    - Display the HTTP status code, response headers, and response content.
 
 4. Prepare Data for POST Request:
+   
    - Create a dictionary with post information, including 'title' and 'body.'
 
 5. Send a POST Request:
+   
    - Construct a POST request to the API endpoint to create a new post.
    - Include the data dictionary in the request body as JSON.
 
 6. Inspect the POST Response:
+   
    - Display the HTTP status code and response content to confirm the post creation.

@@ -7,15 +7,18 @@ Flask is a micro web framework for Python. It's like a toolbox for building web 
 
 <br>
 
-## Setting Up a Flask App 
+## Setting Up a Flask App
+
 To start using Flask, you need to create a Flask app. It's like setting up your workspace. You tell Python that you're going to build a web application. The `Flask(__name__)` line creates your app.
 
 Installing Flask:
+
 ```python
 pip install flask
 ```
 
 Using Flask:
+
 ```python
 from flask import Flask
 
@@ -40,6 +43,7 @@ Routing in web development refers to the process of mapping URLs (Uniform Resour
 - When a user accesses a specific URL, the web framework matches the URL to a defined route and invokes the corresponding view function.
 
 Example:
+
 ```python
 from flask import Flask
 
@@ -72,6 +76,7 @@ if __name__ == '__main__':
 - Dynamic URLs are often used to build flexible web applications that can handle different resources or entities using a single route.
 
 Example:
+
 ```python
 from flask import Flask
 
@@ -160,7 +165,3 @@ Decorators can be used for a wide range of purposes, including logging, authenti
 * <a href="https://www.geeksforgeeks.org/flask-app-routing/">Flask App Routing</a>
 
 * <a href="https://www.programiz.com/python-programming/decorator">Python Decorators</a>
-
-
-
-

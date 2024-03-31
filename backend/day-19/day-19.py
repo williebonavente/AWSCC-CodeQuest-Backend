@@ -1,7 +1,7 @@
 import requests
 
-# API endpoint (example using JSONPlaceholder API)
-api_url = "https://jsonplaceholder.typicode.com/posts/1"
+# API endpoint for SpaceX latest launch
+api_url = "https://api.spacexdata.com/v4/launches/latest"
 
 # Sending a GET request
 response = requests.get(api_url)
@@ -10,9 +10,15 @@ response = requests.get(api_url)
 if response.status_code == 200:
     # Response content as JSON
     data = response.json()
-    title = data["title"]
-    body = data["body"]
-    print(f"Title: {title}")
-    print(f"Body: {body}")
+    mission_name = data["name"]
+    date_precision = data["date_precision"]
+    launch_date_utc = data["date_utc"]
+    details = data["details"]
+    cores = data["cores"]
+    print(f"Mission Name: {mission_name}")
+    print(f"Launch Date (UTC): {launch_date_utc}")
+    print(f"Date Precision: {date_precision}")
+    print(f"Details: {details}")
+    print(f"Cores: {cores}")
 else:
     print(f"Request failed with status code: {response.status_code}")

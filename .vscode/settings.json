@@ -1,3 +1,7 @@
 {
-    "discord.enabled": false
+    "discord.enabled": false,
+    "python.analysis.extraPaths": [
+        "./projects/day-25/init_",
+        "./projects/day-25/init_"
+    ]
 }
