@@ -34,6 +34,7 @@ The server gets your request, finds the web page you want, and sends it back to 
 4. DELETE: The DELETE method is used to request the removal of a resource from the server. It should also be idempotent, meaning multiple DELETE requests for the same resource won't change the result. DELETE requests are used to delete data, such as removing a user's account.
 
 Example Code:
+
 ```python
 import requests
 
@@ -86,19 +87,19 @@ if response.status_code == 200:
 <br>
 
 ## API Endpoints:
-	
+
 API endpoints are like website addresses for specific tasks or information in a web service. They're URLs that let you do things or get data from the service.
 
 ### Structuring Endpoint URLs:
 
 1. Base URL: 
-The base URL represents the root of the API. It often includes the domain and the version of the API. For example, `https://api.example.com/v1`.
+   The base URL represents the root of the API. It often includes the domain and the version of the API. For example, `https://api.example.com/v1`.
 
 2. Resource Path: 
-The resource path identifies the specific resource or action you want to access. It comes after the base URL and provides a clear indication of what the endpoint does. For example, `/users` might represent a collection of user data.
+   The resource path identifies the specific resource or action you want to access. It comes after the base URL and provides a clear indication of what the endpoint does. For example, `/users` might represent a collection of user data.
 
 3. Parameters: 
-Parameters are additional information that can be included in the endpoint URL to filter, sort, or customize the request. These parameters are typically added as query parameters using a question mark (?) and an ampersand (&) to separate multiple parameters. For example, `/users?status=active&sort=desc` might retrieve a list of active users sorted in descending order.
+   Parameters are additional information that can be included in the endpoint URL to filter, sort, or customize the request. These parameters are typically added as query parameters using a question mark (?) and an ampersand (&) to separate multiple parameters. For example, `/users?status=active&sort=desc` might retrieve a list of active users sorted in descending order.
 
 Example Code:
 
@@ -143,6 +144,6 @@ print("API Response:", response.text)
 API endpoint: `https://jsonplaceholder.typicode.com/`
 
 Perform the following tasks:
+
 1. Make a GET request to the provided endpoint to fetch user information.
 2. Check the status code of the response. If it's 200, print "Request successful." Otherwise, print "Request failed."
-

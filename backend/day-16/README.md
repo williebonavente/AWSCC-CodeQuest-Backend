@@ -13,44 +13,44 @@ A **virtual environment** is like a sandbox for your Python projects. It allows 
 ### How to Setup a Virtual Environment in Python
 
 1. Installation
-
+   
     To install virtual environment, run this command in your terminal:
-
-    ```cmd
-    pip install virtualenv
-    ```
+   
+   ```cmd
+   pip install virtualenv
+   ```
 
 2. Initialization
-
+   
     To use it, go to the root of your project directory and run the following command:
-
-    ```cmd
-    python -m venv <virtual-env-name>
-    ```
-
+   
+   ```cmd
+   python -m venv <virtual-env-name>
+   ```
+   
     replacing `<virtual-env-name>` with the actual name of the virtual environment folder that will be created after you run the command.
 
 3. Activation
-
+   
     To activate the virtual environment, run the following command:
-
+   
     If you're in Linux or MacOS:
-
-    ```bash
-    source <virtual-env-folder>/bin/activate
-    ```
-
+   
+   ```bash
+   source <virtual-env-folder>/bin/activate
+   ```
+   
     If you're in Windows (cmd):
-    
-    ```cmd
-    <virtual-env-folder>/Scripts/activate.bat
-    ```
-
+   
+   ```cmd
+   <virtual-env-folder>/Scripts/activate.bat
+   ```
+   
     Powershell:
-
-    ```powershell
-    <virtual-env-folder>/Scripts/Activate.ps1
-    ```
+   
+   ```powershell
+   <virtual-env-folder>/Scripts/Activate.ps1
+   ```
 
 This will activate your virtual environment, and `(<virtual-env-name>)` will now appear in your terminal.
 

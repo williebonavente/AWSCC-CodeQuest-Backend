@@ -24,6 +24,7 @@ for num in my_list:
 avg = sum / len(my_list)
 print(avg)
 ```
+
 <sup>You can try to execute this code in `day-8-avg.py` file located in this folder.</sup>
 
 The code is doing its task perfectly, and it runs with no errors, but what if we need to compute the averages for multiple lists?Copying and pasting this code repeatedly would eventually lead to a cluttered and hard-to-maintain code. In such cases, it's best to create our own custom **function** that can be reused as often as needed.
@@ -85,7 +86,6 @@ An **argument** is the value that gets passed in the function call.
 
 If we try to run the code above and print the value of `my_avg`, you will notice that it will display `None`. This is because a function needs to **return** something after the code gets executed. In this case, we have to return the value of `avg`.
 
-
 ```python
 def avg(numlist):
     sum = 0
@@ -117,17 +117,18 @@ As we continue to further improve our skills as a developer, we will also inevit
 Here are some debugging techniques that can help you:
 
 - Print Debugging
-    - This may be the most common debugging the most developers use. It includes using print statements to check the current value or state of a variable/element. By doing that, they will get an idea on what part of the code things get a little messy.
+  
+  - This may be the most common debugging the most developers use. It includes using print statements to check the current value or state of a variable/element. By doing that, they will get an idea on what part of the code things get a little messy.
 
 - Using a Debugger Tool
-    - This includes using breakpoints and watching variables currently being used in the program execution to check for the state of the entire or part of the program that may be causing the issue.
-
-    - If you're using Visual Studio Code, you can check out [this video](https://www.youtube.com/watch?v=7qZBwhSlfOo) to learn more about the Debugger Tool in your text editor.
+  
+  - This includes using breakpoints and watching variables currently being used in the program execution to check for the state of the entire or part of the program that may be causing the issue.
+  
+  - If you're using Visual Studio Code, you can check out [this video](https://www.youtube.com/watch?v=7qZBwhSlfOo) to learn more about the Debugger Tool in your text editor.
 
 While the debugging technique will really depend on you, the developer, it's still very beneficial to know some of the other options that may help you in such cases where you encounter a really complicated problem.
 
 ---
-
 
 ### Additional Resources:
 

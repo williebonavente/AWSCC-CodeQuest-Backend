@@ -16,6 +16,7 @@ Today is all about understanding how to handle requests in the `requests` librar
 1. Sending Requests: To send a request using the `requests` library, you use one of the HTTP methods like GET, POST, PUT, or DELETE. These methods correspond to the action you want to perform on a resource, such as retrieving data (GET), creating data (POST), updating data (PUT), or deleting data (DELETE).
 
 2. Customizing Requests: You can customize your requests by adding various elements to them, including:
+   
    - Headers: Headers are used to convey additional information about the request. You can set custom headers to specify details like the user agent or authentication information.
    - Query Parameters: Query parameters are used to filter or sort data in the request. You can add query parameters to the URL to refine your request's results.
    - Request Body: For methods like POST and PUT, you can send data in the request body. This is often used to create or update resources.
@@ -62,24 +63,31 @@ In this example, a GET request is sent to the JSONPlaceholder API endpoint with 
 Handling API responses is a crucial aspect of interacting with web services and APIs. Here are the key steps and considerations for response handling:
 
 1. Accessing the Response:
+   
    - After sending a request using the `requests` library, the response is obtained as an object. You can access this response object to retrieve various components, including the HTTP status code, headers, and the response content.
 
 2. Response Status Code:
+   
    - The HTTP status code is a three-digit number that indicates the outcome of the request. A status code in the 200s typically signifies a successful request, while codes in the 400s and 500s indicate errors.
 
 3. Response Headers:
+   
    - Response headers contain metadata about the response, such as the content type and server information. You can access and process these headers as needed.
 
 4. Response Content:
+   
    - The response content is often the most critical part of the response. It contains the data returned by the API, usually in JSON, XML, HTML, or other formats.
 
 5. JSON Parsing:
+   
    - JSON is a common data format used in API responses. You can parse JSON content using Python's `json` module to convert it into Python data structures (e.g., dictionaries or lists) for further processing.
 
 6. Handling Errors:
+   
    - API responses may include error information in the content or headers. It's important to handle errors gracefully, such as by checking for non-200 status codes and taking appropriate actions.
 
 7. Extracting Data:
+   
    - Extracting specific data from the response content is essential. You can use Python's data manipulation techniques to access the data elements you need for your application.
 
 Example Code:
@@ -125,7 +133,4 @@ In this example, we send a GET request to the JSONPlaceholder API, access the re
 - Documentation: https://github.com/r-spacex/SpaceX-API
 - Endpoint: https://api.spacexdata.com/v5/launches/latest
 
-
 Create a Python program that interacts with the SpaceX API to retrieve information about the latest SpaceX launch. You can send a GET request to the API endpoint mentioned above to get details about the latest SpaceX launch. Remember to handle the response, parse the JSON content, and display the launch information in a user-friendly format.
-
-

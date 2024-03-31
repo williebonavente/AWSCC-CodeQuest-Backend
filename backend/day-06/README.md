@@ -69,6 +69,7 @@ Weirdly enough, in Python, we can also use an `else` clause in loops which will 
 For today's challenge, let's code the popular children game, **FizzBuzz**!
 
 Rules of Fizz Buzz:
+
 - if a number is divisible by 3, print 'Fizz'
 - if a number is divisible by 5, print 'Buzz'
 - if a number is both divisible by 3 and 5, print 'FizzBuzz!'
@@ -101,10 +102,10 @@ Fizz
 19
 Buzz
 ```
+
 ---
 
 ### Additional Resources:
 
 - [Loops - Learn Python](https://www.learnpython.org/en/Loops)
 - [Python for Loop](https://www.programiz.com/python-programming/for-loop)
-
